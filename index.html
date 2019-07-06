@@ -116,6 +116,8 @@
 			  <div class="hero-content">
 				<h1>Hello</h1>
 				<br>
+                <h0>Please try to catch the flying "drew"<h0>
+              <h0><br>then you will get a surprise<br><h0>
 				<span class="typed"></span>
 			  </div>
 		  </div>
@@ -503,5 +505,43 @@
 <script src="js/typed.js" type="text/javascript"></script>
 <script src="js/main.js" type="text/javascript"></script>
 
+<div id="codefans_net" style="position:absolute">
+  <a href="https://cndrew.cn/amazing" target="_blank">
+  <img src="https://i.loli.net/2019/07/06/5d2024ad8fc4427409.png" width="100px" height="60px">
+  </a>
+</div>
+  </body>
+<script>
+  var x=0,y=0;
+  var xin=true,yin=true;
+  var step=1;
+  var xstep=20;
+  var ystep=5;
+  var delay=10;
+  var obj=document.getElementById("codefans_net");
+  function float(){
+    var L=T=0;
+    var R=document.documentElement.clientWidth-200;
+    var B=document.documentElement.clientHeight-180;
+    /*x=x+step*(xin?1:-1);
+    if(x<L){xin=true;x=L;}
+    if(x>R){xin=false;x=R;}
+    y=y+step*(yin?1:-1);
+    if(y<T){yin=true;y=T;}
+    if(y>B){yin=false;y=B;}*/
+
+    if(x<L||x>R){xstep=-xstep;}
+    if(y<T||y>B){ystep=-ystep;}
+    x=x+xstep;
+    y=y+ystep;
+    obj.style.left=x+document.documentElement.scrollLeft+"px";
+    obj.style.top=y+document.documentElement.scrollTop+"px";
+
+
+  }
+  var itl=setInterval("float()",delay);
+  obj.onmouseover=function(){clearInterval(itl)}
+  obj.onmouseout=function(){itl=setInterval("float()",delay)}
+</script>
 </body>
 </html>

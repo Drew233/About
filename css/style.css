@@ -1,4 +1,4 @@
-﻿
+
 /*-----------------------------------------1) General--------------------------------------------------*/
 @font-face {
   font-family: 'Glyphter';
@@ -482,7 +482,7 @@ p {
 
 /*----------------------------------------- 6) Hero --------------------------------------------------*/
 #home {
-  background: url('https://i.loli.net/2019/07/07/5d216836d9a0127341.jpeg');
+  background: url('http://drew.todest.cn//20190804074456.jpeg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -751,7 +751,7 @@ ul.portfolio-image li .desc{
 }
 /*---------- d. testimonial -----------*/
 #testimonial {
-  background-image: url("https://i.loli.net/2019/07/07/5d21684b33c6552229.jpg");
+  background-image: url("http://drew.todest.cn//20190804074450.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -889,7 +889,7 @@ ul.portfolio-image li .desc{
   width: 100%;
 }
 .bg-about {
-  background: url('https://i.loli.net/2019/07/07/5d21681504a6b40878.jpg');
+  background: url('http://drew.todest.cn//20190804074612.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
